@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardBackgroundColor="@android:color/white"
+    app:cardCornerRadius="10dp"
+    app:cardElevation="5dp">
+
+    <com.balysv.materialripple.MaterialRippleLayout
+        style="@style/RippleStyleBlack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:mrl_rippleHover="true"
+        app:mrl_rippleFadeDuration="60"
+        app:mrl_rippleAlpha="0.3"
+        app:mrl_rippleDuration="350"
+        app:mrl_rippleColor="@color/Appcolor"
+        app:mrl_rippleDimension="10dp"
+        app:mrl_rippleOverlay="true"
+        app:mrl_rippleDelayClick="true">
+
+
+        <LinearLayout
+            android:id="@+id/lyt_parent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:orientation="horizontal"
+            android:padding="15dp">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/dot"
+                android:src="@drawable/ic_dot"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+            <TextView
+                android:id="@+id/balancename"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="prashant voucher"
+                android:textSize="15sp"
+                android:fontFamily="@font/googlesans_regular"
+                android:layout_marginLeft="10dp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+                android:textColor="@color/grey_80" />
+            <TextView
+                android:id="@+id/balancevalue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="21000"
+                android:textSize="15sp"
+                android:fontFamily="@font/googlesans_regular"
+                android:layout_marginLeft="10dp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+                android:textColor="@color/grey_90" />
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </com.balysv.materialripple.MaterialRippleLayout>
+
+</android.support.v7.widget.CardView>
