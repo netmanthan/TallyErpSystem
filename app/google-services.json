@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "188851513097",
+    "firebase_url": "https://tallyerpsystem.firebaseio.com",
+    "project_id": "tallyerpsystem",
+    "storage_bucket": "tallyerpsystem.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:188851513097:android:a1b4e3bb8fc20d34",
+        "android_client_info": {
+          "package_name": "com.example.prashantgajera.tallyerpsystem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "188851513097-d7i67re7fglkadp6kt6vri3do0smobk7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.prashantgajera.tallyerpsystem",
+            "certificate_hash": "cfd60b9267e9ed97b137f164c64c1002a8cd3bfb"
+          }
+        },
+        {
+          "client_id": "188851513097-bptntmj0deornaaa5486dt08oldn252q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBj8RsUb7X_WbZIxyJtGOaVTEIMr6TpPks"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "188851513097-bptntmj0deornaaa5486dt08oldn252q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
