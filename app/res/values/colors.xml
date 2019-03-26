@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="black">#000</color>
+    <color name="white">#fff</color>
+
+    <color name="Appcolor" >#009788</color>
+    <color name="Statusbar" >#016e69</color>
+    <color name="menuNavigation6colorPrimary">#8f26aa</color>
+    <color name="menuNavigation6colorPrimaryDark">#7824a1</color>
+    <color name="menuNavigation6colorAccent">#8f26aa</color>
+    <color name="menuNavigation6menuBg">#8f26aa</color>
+    <color name="menuNavigation6SubMenuFont">#838383</color>
+    <color name="starttheme">#d90852d1</color>
+    <color name="centertheme">#f46b5cf7</color>
+    <color name="endtheme">#c86309dc</color>
+
+    <color name="grey_3">#f7f7f7</color>
+    <color name="grey_5">#f2f2f2</color>
+    <color name="grey_10">#e6e6e6</color>
+    <color name="grey_20">#cccccc</color>
+    <color name="grey_40">#999999</color>
+    <color name="grey_60">#666666</color>
+    <color name="grey_80">#37474F</color>
+    <color name="grey_90">#263238</color>
+    <color name="red">#a9020a</color>
+    <color name="glide_slider_background_color">#000000</color>
+    <color name="glide_slider_indicator_color">#FFFFFF</color>
+
+</resources>
